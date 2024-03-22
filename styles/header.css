@@ -1,0 +1,103 @@
+.header {
+    background-color: var(--color-background-light-pink);
+    font-family: var(--font-family-ProximaNova);
+    font-size: 14px;
+}
+
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    color: var(--color-font-headr-dark-grey);
+}
+
+.mainNav-left__item {
+    margin-right: 10px;
+    color: var(--color-font-headr-dark-grey);
+}
+
+.mainNav-right {
+    display: flex;
+    gap: 44px;
+}
+.mainNav-right__item, .mainNav-basket{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mainNav-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92px;
+}
+
+.secondNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 160px;
+    padding: 0 160px;
+    font-family: var(--font-family-ProximaNova);
+    text-transform: uppercase;
+}
+
+.secondNav-past {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.secondNav__item {
+    display: flex;
+    position: relative;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+.secondNav__item a {
+    color: var(--color-font-headr-dark-grey);
+}
+
+.secondNav__submenu {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-background-light-pink);
+    list-style-type: none;
+}
+
+.secondNav__item:hover .secondNav__submenu {
+    display: block;
+}
+.secondNav__item:hover {
+    background-color: var(--color-background-light-pink);
+} 
+
+.arrow-bottom {
+    width: 6px;
+    height: 6px;
+    border-top: 1px solid var(--color-font-headr-dark-grey);
+    border-right: 1px solid var(--color-font-headr-dark-grey);
+    margin-left: 10px;
+    transform: rotate(135deg); 
+}
+
+.secondNav__icon {
+    margin-left: 10px;
+
+}
+
+.submenu__item {
+    padding: 10px;
+    text-transform: none;
+	border-top: 2px solid white;
+}

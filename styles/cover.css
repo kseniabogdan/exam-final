@@ -1,0 +1,49 @@
+.cover {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../images/cover/background-cover.png);
+    background-repeat: no-repeat;
+    height: 552px; 
+    padding-right: 210px;
+}
+
+.cover__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.cover__pretitle {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.cover__pretitle-since {
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.cover__pretitle-since span {
+    margin: 0 7px;
+}
+
+.line-two:after,
+.line-one:before{
+    content:"\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    font-weight: 700;
+}
+
+.cover__title {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.cover__text {
+    font-family: var(--font-family-ProximaNova);
+    font-size: 18px;
+    text-align: center;
+}

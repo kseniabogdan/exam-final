@@ -1,0 +1,30 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-background-dark-grey); 
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: var(--font-family-Montserrat);
+    color: var(--color-font-dark-grey);
+}
+
+.content {
+    background: var(--color-background-light-grey);
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}

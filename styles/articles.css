@@ -1,0 +1,35 @@
+.articles {
+	padding: 90px 0 66px 0;
+}
+
+.articles__title {
+	margin-bottom: 40px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.articles__box {
+	display: flex;
+	gap: 28px;
+}
+
+.articles__block {
+	width: 272px;
+	height: 390px;
+}
+
+.articles__img {
+	width: 270px;
+	height: 270px;
+}
+
+.articles__title-block {
+	margin-top: 29px;
+	font-size: 18px;
+}
+
+.articles__text {
+	margin-top: 12px;
+	font-family: var(--font-family-ProximaNova);
+	font-size: 14px;
+}

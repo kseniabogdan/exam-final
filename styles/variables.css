@@ -1,0 +1,15 @@
+:root {
+    --color-background-light-grey: #f7f7f7;
+    --color-background-dark-grey: #E5E5E5;
+    --color-background-light-pink:#F7EBE5;
+
+    --color-font-dark-grey:#292929;
+    --color-font-headr-dark-grey:#2B1414;
+
+    --color-bright-pink:#FF4567;
+
+    --font-family-Montserrat: 'Montserrat', Arial, sans-serif;
+    --font-family-ProximaNova: 'ProximaNova', Arial, sans-serif;
+    --font-family-ProximaNova-semibold: 'ProximaNova semibold', 'ProximaNova', Arial, sans-serif;
+
+}
